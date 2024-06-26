@@ -1,3 +1,6 @@
 {
-    "Auth": true
+    "Auth": true,
+    "Doctors": true,
+    "Sections": true,
+    "Services": true
 }

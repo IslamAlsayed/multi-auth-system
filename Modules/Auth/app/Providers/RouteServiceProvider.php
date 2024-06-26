@@ -7,6 +7,10 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 
 class RouteServiceProvider extends ServiceProvider
 {
+    public const ADMIN = '/dashboard/admin';
+    public const USER = '/dashboard/user';
+    public const PATIENT = '/dashboard/patient';
+
     /**
      * Called before routes are registered.
      *

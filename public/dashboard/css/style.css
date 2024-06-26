@@ -1,0 +1,38 @@
+* {
+  text-transform: capitalize !important;
+}
+
+.email {
+  text-transform: lowercase !important;
+}
+
+.square {
+  width: fit-content !important;
+  text-align: center !important;
+}
+
+.container-fluid::before,
+.container-fluid::after {
+  display: none !important;
+}
+
+.form-control:disabled {
+  background: #fff !important;
+}
+
+.checkbox {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.modal .modal-text {
+  direction: ltr !important;
+}
+
+#example1_wrapper .row:first-child .dataTables_filter {
+  float: left !important;
+}
+
+#example1_wrapper .row:first-child .dataTables_length {
+  float: right !important;
+}
